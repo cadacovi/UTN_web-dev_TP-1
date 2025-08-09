@@ -1,0 +1,143 @@
+/* Clases para el estilizado y comportamiento */
+
+/* --------------------------------------- */
+.icon {
+    fill: currentColor;
+    color: black;
+}
+
+.icon--logo{
+    width: 147px;
+    height: 30px;
+}
+
+.icon--small{
+    width: 24px;
+    height: 24px;
+}
+
+.icon--xsmall{
+    width: 16px;
+    height: 16px;
+}
+
+.icon--checkmark{
+    width: 24px;
+    height: 24px;
+    color: #00B090;
+}
+
+.icon--bg{
+    width: 32px;
+    height: 32px;
+}
+
+.btn-style{
+    display: inline-block;
+    cursor: pointer;
+    border-radius: 8px;
+}
+
+.btn-style--1{
+    padding: 11px 15px;
+    border: 1px solid black;
+    background-color: transparent;
+}
+
+.btn-style--2{
+    padding: 11px 47px;
+    border: 1px solid #673de6;
+    background-color: #673de6;
+    color: white;
+}
+
+.btn-style--2:hover{
+    background-color: #5025d1;
+    border-color: #5025d1;
+    transition: all .1s ease-in-out;
+}
+
+.content-card{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    flex: 1 1 0;
+    gap: 16px;
+    max-width: 360px;
+    padding: 32px;
+    border-radius: 16px;
+    background-color: #2f1c6a;
+}
+
+.content-card__icon{
+    align-items: center;
+    border-radius: 6px;
+    display: flex;
+    height: 40px;
+    justify-content: center;
+    width: 40px;
+    background-color: #673DE6;
+}
+
+/* --------------------------------------- */
+.header{
+    background-color: white;
+    box-shadow: 0 4px 10px #0000001a;
+}
+
+.header__nav-link{
+    font-weight: 300;
+}
+
+.header__nav-link:hover{
+    font-weight: 300;
+    opacity: .7;
+}
+
+.header__account:hover{
+    opacity: .7;
+    border: 1px solid #6d7081;
+}
+
+.header__lang:hover{
+    opacity: .7;
+}
+
+.services-section{
+    background-color: #1F1346;
+    color: white;
+}
+
+.footer{
+    background-color: #F4F5FF;
+}
+
+.footer__copyright{
+    padding-top: 24px;
+    border-top: 1px solid #d5dfff;
+}
+
+.footer__payment-method{
+    display: inline-block;
+    height: 40px;
+    width: 60px;
+    border-radius: 6px;
+    border: 1px solid #d5dfff;
+    overflow: hidden;
+}
+
+.footer__link:hover{
+    color: #5025d1;
+    transition: color .3s ease-in-out;
+}
+
+.footer__legals-link:hover{
+    color: #5025d1;
+    transition: color .3s ease-in-out;
+}
+
+.footer__socials-logo:hover{
+    opacity: .7;
+    transition: all .3s ease-in-out;
+}

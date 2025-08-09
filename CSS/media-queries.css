@@ -1,0 +1,245 @@
+@media (max-width: 1550px){
+    .hero__info{
+    width: 440px;
+    }
+
+    .hero__wrapper{
+        justify-content: center;
+    }
+}
+
+@media (max-width: 1366px){
+    .hero__image{
+    max-width: 616px;
+    }
+}
+
+@media (max-width: 1140px){
+    .header__main{
+        display: none;
+    }
+
+    .header__menu{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-bottom: 6px;
+    }
+
+    .header{
+        padding: 16px 16px 16px 20px;
+        height: 62px;
+    }
+}
+
+@media (max-width: 1025px){
+    .t-h1{
+        font-size: 28px;
+        letter-spacing: 0;
+    }
+
+    .t-h2{
+        font-size: 18px;
+        line-height: 24px;
+    }
+
+    .hero{
+        padding: 62px 0 80px 0;
+    }
+
+    .hero__wrapper{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+    max-width: 768px;
+    width: auto;
+}
+
+    .hero__info{
+    max-width: 688px;
+    width: auto;
+    gap: 16px;
+    }
+
+    .hero__image{
+    max-width: 688px;
+    width: auto;
+    }
+
+    .h-section{
+        padding: 64px 0;
+    }
+
+    .services-section__wrapper{
+        width: 688px;
+        gap: 40px;
+    }
+
+    .services-section__header{
+        gap: 24px;
+    }
+
+    .services-section__cards{
+        flex-direction: column;
+        align-items: center;
+        gap: 24px;
+    }
+
+    .services-section__start-btn{
+        margin-top: 32px;
+    }
+
+    .content-card{
+        max-width: 688px;
+    }
+
+    .footer{
+        padding: 48px 40px 24px 40px;
+    }
+
+    .footer__wrapper{
+        width: 688px;
+        gap: 40px;
+    }
+
+    .footer__content{
+        gap: 32px;
+        flex-wrap: wrap;
+    }
+
+    .footer__links{
+        max-width: 200px;
+        width: auto;
+    }
+
+    .footer__logos{
+        margin-bottom: 40px;
+    }
+
+    .footer__logos-bottom{
+        flex-direction: column-reverse;
+        align-items:flex-start;
+        gap: 16px;
+    }
+
+    .footer__copyright{
+        flex-direction: column;
+        gap: 8px;
+    }
+}
+
+@media (max-width: 768px){
+    .t-h1{
+        font-size: 24px;
+        line-height: 32px;
+    }
+
+    .hero{
+        padding: 14px 0 36px;
+    }
+
+    .hero__wrapper{
+        padding: 0 16px;
+        gap: 40px;
+    }
+
+    .hero__info{
+        width: auto;
+        max-width: 508px;
+        gap: 16px;
+    }
+
+    .hero__image{
+        max-width: 508px;
+    }
+
+    .hero__start-btn{
+        width: 100%;
+        text-align: center;
+    }
+
+    .h-section{
+        padding: 56px 0;
+    }
+
+    .services-section__wrapper{
+        width: auto;
+        max-width: 540px;
+        padding: 0 16px;
+        gap: 32px;
+    }
+
+    .services-section__header{
+        gap: 16px;
+    }
+
+    .services-section__cards{
+        gap: 16px;
+    }
+
+
+    .footer{
+        padding: 48px 16px 12px 16px;
+    }
+
+    .footer__wrapper{
+        width: auto;
+        max-width: 508px;
+        gap: 48px;
+    }
+
+    .footer__content{
+        flex-direction: column;
+        gap: 16px;
+    }
+
+    .footer__links{
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-between;
+        width: 100%;
+        max-width: none;
+    }
+
+    .footer__links-wrapper{
+        display: none;
+    }
+
+    .footer__links-toggle{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .footer__logos {
+        margin-bottom: 24px;
+    }
+
+    .footer__logos-top {
+        flex-direction: column-reverse;
+        align-items: flex-start;
+        gap: 40px;
+    }
+
+    .footer__socials {
+        justify-content: space-between;
+        gap: 0;
+        width: 100%;
+    }
+
+    .footer__legals{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        max-width: 328px;
+        gap: 8px;
+    }
+
+    .footer__payments{
+        display: flex;
+        flex-wrap: wrap;
+        gap: 8px;
+        max-width: 300px;
+    }
+}

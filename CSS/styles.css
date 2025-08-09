@@ -1,0 +1,101 @@
+/*
+Archivo CSS principal
+- Normalizacion
+- Tipografia general, clases de estiLos de texto generales
+- Selector de elementos, estilos de elementos de HTML
+- Clases utilitarias
+*/
+
+/* IMPORTACIONES */
+
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+
+/* NORMALIZACION */
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+/* ESTILOS DE ELEMENTOS HTML */
+body{
+    position: relative;
+    font-family: "DM sans", sans-serif;
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 700;
+    color: black;
+}
+
+li{
+    list-style-type: none;
+}
+
+button{
+    cursor: pointer;
+    background-color: transparent;
+    border: none;
+}
+
+a{
+    text-decoration: none;
+    color: currentColor;
+}
+
+/* ESTILOS DE TEXTO */
+.t-h1{
+    line-height: 40px;
+    font-size: 36px;
+    font-weight: 700;
+    letter-spacing: 1px;
+}
+
+.t-h2{
+    font-size: 20px;
+    line-height: 32px;
+    font-weight: 700;
+}
+
+.t-h3{
+    font-size: 18px;
+    line-height: 24px;
+    font-weight: 700;
+}
+
+.t-h4{
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 700;
+}
+
+.t-h5{
+    font-size: 14px;
+    line-height: 24px;
+    font-weight: 700;
+}
+
+.t-body-1{
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+}
+
+.t-body-2{
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 24px;
+}
+
+.thin-text{
+    font-weight: 300;
+}
+
+/* utilitarias */
+.white-color{
+    color: white;
+}
+
+.primary-color{
+    color: #673DE6
+}
