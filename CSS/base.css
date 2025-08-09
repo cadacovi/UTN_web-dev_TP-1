@@ -1,9 +1,8 @@
 /*
-Archivo CSS principal
+Archivo base CSS de menor jerarquia (cascada, se carga primero en el html)
 - Normalizacion
 - Tipografia general, clases de estiLos de texto generales
 - Selector de elementos, estilos de elementos de HTML
-- Clases utilitarias
 */
 
 /* IMPORTACIONES */
@@ -89,13 +88,4 @@ a{
 
 .thin-text{
     font-weight: 300;
-}
-
-/* utilitarias */
-.white-color{
-    color: white;
-}
-
-.primary-color{
-    color: #673DE6
 }
